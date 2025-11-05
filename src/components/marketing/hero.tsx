@@ -1,3 +1,5 @@
+"use client";
+
 import { ArrowRightIcon } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
@@ -10,7 +12,8 @@ const Hero = () => {
     return (
         <div className="relative flex flex-col items-center justify-center w-full py-20">
 
-            <div className="absolute flex lg:hidden size-40 rounded-full bg-blue-500 blur-[10rem] top-0 left-1/2 -translate-x-1/2 -z-10"></div>
+            {/* === CORRIGIDO AQUI === (Glow mobile) */}
+            <div className="absolute flex lg:hidden size-40 rounded-full bg-secondary blur-[10rem] top-0 left-1/2 -translate-x-1/2 -z-10"></div>
 
             <div className="flex flex-col items-center justify-center gap-y-8 relative">
                 <Container className="hidden lg:flex absolute inset-0 top-0 mb-auto flex-col items-center justify-center w-full min-h-screen -z-10">
@@ -48,32 +51,35 @@ const Hero = () => {
                             </span>
                             <span className="backdrop absolute inset-[1px] rounded-full bg-background transition-colors duration-200 group-hover:bg-neutral-800" />
                             <span className="z-10 py-0.5 text-sm text-neutral-100 flex items-center">
-                                <span className="px-2 py-[0.5px] h-[18px] tracking-wide flex items-center justify-center rounded-full bg-gradient-to-r from-sky-400 to-blue-600 text-[9px] font-medium mr-2 text-white">
-                                    NEW
+                                {/* === CORRIGIDO AQUI === (Gradiente do Badge) */}
+                                <span className="px-2 py-[0.5px] h-[18px] tracking-wide flex items-center justify-center rounded-full bg-gradient-to-r from-secondary to-primary text-[9px] font-medium mr-2 text-white">
+                                    NOVO
                                 </span>
-                                Explore the 2024 recap
+                                Conheça mais sobre a Redefigital
                             </span>
                         </button>
                     </Container>
                     <Container delay={0.15}>
                         <h1 className="text-4xl md:text-4xl lg:text-7xl font-bold text-center !leading-tight max-w-4xl mx-auto">
-                            Transform your {" "}
+                            Venda mais sem gastar{" "}
                             <span className="">
-                                marketing {" "}
+                                um centavo {" "}
                             </span>
-                            with AI Precision
+                            com a Redefigital
+                            
                         </h1>
                     </Container>
                     <Container delay={0.2}>
                         <p className="max-w-xl mx-auto mt-2 text-base lg:text-lg text-center text-muted-foreground">
-                            AI-powered automation and insights to maximize your campaigns and grow your brand.
+                            A Redefigital conecta sua marca a milhares de consultoras que vendem todos os dias.
+                            Você cadastra seus produtos e a rede faz o resto, sem mensalidade, sem dor de cabeça.
                         </p>
                     </Container>
                     <Container delay={0.25} className="z-20">
                         <div className="flex items-center justify-center mt-6 gap-x-4">
                             <Link href="#" className="flex items-center gap-2 group">
                                 <Button size="lg">
-                                    Start Free Trial
+                                    Cadastrar minha marca agora
                                     <ArrowRightIcon className="size-4 group-hover:translate-x-1 transition-all duration-300" />
                                 </Button>
                             </Link>
@@ -81,8 +87,12 @@ const Hero = () => {
                     </Container>
                     <Container delay={0.3} className="relative">
                         <div className="relative rounded-xl lg:rounded-[32px] border border-border p-2 backdrop-blur-lg mt-10 max-w-6xl mx-auto">
-                            <div className="absolute top-1/8 left-1/2 -z-10 bg-gradient-to-r from-sky-500 to-blue-600 w-1/2 lg:w-3/4 -translate-x-1/2 h-1/4 -translate-y-1/2 inset-0 blur-[4rem] lg:blur-[10rem] animate-image-glow"></div>
-                            <div className="hidden lg:block absolute -top-1/8 left-1/2 -z-20 bg-blue-600 w-1/4 -translate-x-1/2 h-1/4 -translate-y-1/2 inset-0 blur-[10rem] animate-image-glow"></div>
+                            
+                            {/* === CORRIGIDO AQUI === (Glow principal da imagem) */}
+                            <div className="absolute top-1/8 left-1/2 -z-10 bg-gradient-to-r from-secondary to-primary w-1/2 lg:w-3/4 -translate-x-1/2 h-1/4 -translate-y-1/2 inset-0 blur-[4rem] lg:blur-[10rem] animate-image-glow"></div>
+                            
+                            {/* === CORRIGIDO AQUI === (Glow secundário da imagem) */}
+                            <div className="hidden lg:block absolute -top-1/8 left-1/2 -z-20 bg-primary w-1/4 -translate-x-1/2 h-1/4 -translate-y-1/2 inset-0 blur-[10rem] animate-image-glow"></div>
 
                             <div className="rounded-lg lg:rounded-[22px] border border-border bg-background">
                                 <Image

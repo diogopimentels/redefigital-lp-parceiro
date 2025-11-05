@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import Container from "../global/container";
 import Icons from "../global/icons";
 
@@ -9,13 +10,20 @@ const Footer = () => {
                 <Container>
                     <div className="flex flex-col items-start justify-start md:max-w-[200px]">
                         <div className="flex items-center gap-2">
-                            <Icons.icon className="w-auto h-5" />
+                            <div className="relative w-8 h-8">
+                                <Image
+                                    src="/redefigital.png"
+                                    alt="Logo Redefigital"
+                                    fill
+                                    className="object-contain"
+                                />
+                            </div>
                             <span className="text-base md:text-lg font-medium text-foreground">
-                                Vetra
+                                Redefigital
                             </span>
                         </div>
                         <p className="text-muted-foreground mt-4 text-sm text-start">
-                            AI-powered platform that transforms your marketing workflow in seconds.
+                            Conecte, venda, cresça. Sua marca na rede de consultora mais eficiente do Brasil.
                         </p>
                     </div>
                 </Container>
@@ -24,27 +32,27 @@ const Footer = () => {
                     <div className="md:grid md:grid-cols-2 md:gap-8">
                         <Container delay={0.1} className="h-auto">
                             <h3 className="text-base font-medium text-foreground">
-                                Product
+                                Navegação
                             </h3>
                             <ul className="mt-4 text-sm text-muted-foreground space-y-4">
                                 <li className="mt-2">
-                                    <Link href="#" className="link hover:text-foreground transition-all duration-300">
-                                        Features
+                                    <Link href="#hub" className="link hover:text-foreground transition-all duration-300">
+                                        Hub 5.0
                                     </Link>
                                 </li>
                                 <li className="mt-2">
-                                    <Link href="#" className="link hover:text-foreground transition-all duration-300">
-                                        Pricing
+                                    <Link href="#marcas" className="link hover:text-foreground transition-all duration-300">
+                                        Marcas
                                     </Link>
                                 </li>
                                 <li className="mt-2">
-                                    <Link href="#" className="link hover:text-foreground transition-all duration-300">
-                                        Testimonials
+                                    <Link href="#analise" className="link hover:text-foreground transition-all duration-300">
+                                        Análise
                                     </Link>
                                 </li>
                                 <li className="mt-2">
-                                    <Link href="#" className="link hover:text-foreground transition-all duration-300">
-                                        Supported Languages
+                                    <Link href="#funcionalidades" className="link hover:text-foreground transition-all duration-300">
+                                        Funcionalidades
                                     </Link>
                                 </li>
                             </ul>
@@ -52,27 +60,22 @@ const Footer = () => {
                         <Container delay={0.2} className="h-auto">
                             <div className="mt-10 md:mt-0 flex flex-col">
                                 <h3 className="text-base font-medium text-foreground">
-                                    Solutions
+                                    Empresa
                                 </h3>
                                 <ul className="mt-4 text-sm text-muted-foreground space-y-4">
                                     <li>
                                         <Link href="#" className="link hover:text-foreground transition-all duration-300">
-                                            Content Creators
+                                            Sobre Nós
                                         </Link>
                                     </li>
                                     <li className="mt-2">
                                         <Link href="#" className="link hover:text-foreground transition-all duration-300">
-                                            Businesses
+                                            Política de Privacidade
                                         </Link>
                                     </li>
                                     <li className="mt-2">
                                         <Link href="#" className="link hover:text-foreground transition-all duration-300">
-                                            Education
-                                        </Link>
-                                    </li>
-                                    <li className="mt-2">
-                                        <Link href="#" className="link hover:text-foreground transition-all duration-300">
-                                            Enterprise
+                                            Termos & Condições
                                         </Link>
                                     </li>
                                 </ul>
@@ -80,52 +83,6 @@ const Footer = () => {
                         </Container>
                     </div>
                     <div className="md:grid md:grid-cols-2 md:gap-8">
-                        <Container delay={0.3} className="h-auto">
-                            <h3 className="text-base font-medium text-foreground">
-                                Resources
-                            </h3>
-                            <ul className="mt-4 text-sm text-muted-foreground space-y-4">
-                                <li className="mt-2">
-                                    <Link href="#" className="link hover:text-foreground transition-all duration-300">
-                                        Blog
-                                    </Link>
-                                </li>
-                                <li className="mt-2">
-                                    <Link href="#" className="link hover:text-foreground transition-all duration-300">
-                                        Translation Guides
-                                    </Link>
-                                </li>
-                                <li className="mt-2">
-                                    <Link href="#" className="link hover:text-foreground transition-all duration-300">
-                                        Support
-                                    </Link>
-                                </li>
-                            </ul>
-                        </Container>
-                        <Container delay={0.4} className="h-auto">
-                            <div className="mt-10 md:mt-0 flex flex-col">
-                                <h3 className="text-base font-medium text-foreground">
-                                    Company
-                                </h3>
-                                <ul className="mt-4 text-sm text-muted-foreground space-y-4">
-                                    <li>
-                                        <Link href="#" className="link hover:text-foreground transition-all duration-300">
-                                            About Us
-                                        </Link>
-                                    </li>
-                                    <li className="mt-2">
-                                        <Link href="#" className="link hover:text-foreground transition-all duration-300">
-                                            Privacy Policy
-                                        </Link>
-                                    </li>
-                                    <li className="mt-2">
-                                        <Link href="#" className="link hover:text-foreground transition-all duration-300">
-                                            Terms & Conditions
-                                        </Link>
-                                    </li>
-                                </ul>
-                            </div>
-                        </Container>
                     </div>
                 </div>
             </div>
@@ -133,7 +90,7 @@ const Footer = () => {
             <Container delay={0.5} className="w-full relative mt-12 lg:mt-20">
                 <div className="mt-8 md:flex md:items-center justify-center footer w-full">
                     <p className="text-sm text-muted-foreground mt-8 md:mt-0">
-                        &copy; {new Date().getFullYear()} Vetra. All rights reserved.
+                        &copy; {new Date().getFullYear()} Redefigital. Todos os direitos reservados.
                     </p>
                 </div>
             </Container>

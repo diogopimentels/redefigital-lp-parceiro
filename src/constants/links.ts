@@ -1,18 +1,18 @@
 export const NAV_LINKS = [
     {
-        name: "Pricing",
-        href: "#"
+        name: "Hub 5.0",
+        href: "#hub"
     },
     {
-        name: "Features",
-        href: "#"
+        name: "Marcas",
+        href: "#marcas"
     },
     {
-        name: "Blog",
-        href: "#"
+        name: "Análise",
+        href: "#analise"
     },
     {
-        name: "Contact",
-        href: "#"
+        name: "Funcionalidades",
+        href: "#funcionalidades"
     },
 ];

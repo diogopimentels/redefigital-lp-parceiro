@@ -36,7 +36,7 @@ interface ParticlesProps {
     ease?: number;
     size?: number;
     refresh?: boolean;
-    color?: string;
+    color?: string; // Cor que será passada
     vx?: number;
     vy?: number;
 }
@@ -78,7 +78,7 @@ const Particles: React.FC<ParticlesProps> = ({
     ease = 50,
     size = 0.4,
     refresh = false,
-    color = "#ffffff",
+    color = "#A6375F", // <-- AQUI! Cor padrão agora é o nosso Vinho
     vx = 0,
     vy = 0,
 }) => {
@@ -120,7 +120,7 @@ const Particles: React.FC<ParticlesProps> = ({
             }
             window.removeEventListener("resize", handleResize);
         };
-    }, [color]);
+    }, [color]); // Adicionei 'color' aqui para re-inicializar se a prop mudar
 
     useEffect(() => {
         onMouseMove();
@@ -194,7 +194,7 @@ const Particles: React.FC<ParticlesProps> = ({
         };
     };
 
-    const rgb = hexToRgb(color);
+    const rgb = hexToRgb(color); // A cor é convertida para RGB aqui
 
     const drawCircle = (circle: Circle, update = false) => {
         if (context.current) {
@@ -202,7 +202,7 @@ const Particles: React.FC<ParticlesProps> = ({
             context.current.translate(translateX, translateY);
             context.current.beginPath();
             context.current.arc(x, y, size, 0, 2 * Math.PI);
-            context.current.fillStyle = `rgba(${rgb.join(", ")}, ${alpha})`;
+            context.current.fillStyle = `rgba(${rgb.join(", ")}, ${alpha})`; // Usando a cor passada
             context.current.fill();
             context.current.setTransform(dpr, 0, 0, dpr, 0, 0);
 

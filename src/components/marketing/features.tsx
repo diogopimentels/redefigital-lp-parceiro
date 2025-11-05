@@ -1,6 +1,6 @@
 import { FEATURES } from "@/constants";
 import { cn } from "@/lib";
-import Image from "next/image";
+// import Image from "next/image"; // <-- REMOVIDO: Não vamos mais usar a imagem grande
 import Container from "../global/container";
 import { MagicCard } from "../ui/magic-card";
 
@@ -8,14 +8,16 @@ const Features = () => {
     return (
         <div className="relative flex flex-col items-center justify-center w-full py-20">
             <Container>
+                {/* --- SUA COPY (INTOCADA) --- */}
                 <div className="flex flex-col items-center text-center max-w-2xl mx-auto">
-                    <h2 className="text-2xl md:text-4xl lg:text-5xl font-heading font-medium !leading-snug mt-6">
-                        AI-Powered marketing <br /> made <span className="font-subheading italic">simple</span>
+                    <h2 className="text-2xl md:text-4xl lg:text-5xl font-heading font-medium !leading-snug mt-4">
+                        Conecte sua marca às <span className="font-subheading italic"> consultoras certas </span>
                     </h2>
                     <p className="text-base md:text-lg text-center text-accent-foreground/80 mt-6">
-                        Transform your marketing with AI-powered automation. Create campaigns faster, generate better content, and make smarter decisions in minutes.
+                        Cadastre seus produtos gratuitamente, você define a comissão. Sem risco, sem mensalidade, sem dor de cabeça.
                     </p>
                 </div>
+                {/* --- FIM DA COPY --- */}
             </Container>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8 relative overflow-visible">
@@ -26,31 +28,38 @@ const Features = () => {
                         index === 3 && "lg:col-span-2",
                         index === 2 && "md:col-span-2 lg:col-span-1",
                     )}>
+                        
+                        {/* Cores do MagicCard (INTOCADAS) */}
                         <MagicCard
-                            gradientFrom="#38bdf8"
-                            gradientTo="#3b82f6"
+                            gradientFrom="#8B2E52" // Rosa (Secondary)
+                            gradientTo="#B76A58" // Terracota (Primary)
                             className="p-4 lg:p-6 lg:rounded-3xl"
-                            gradientColor="rgba(59,130,246,0.1)"
+                            gradientColor="rgba(183, 106, 88, 0.1)" // Glow Terracota
                         >
-                            <div className="flex items-center space-x-4 mb-4">
-                                <h3 className="text-xl font-semibold flex items-center gap-2">
-                                    <feature.icon className="size-5 text-primary" />
-                                    {feature.title}
-                                </h3>
+                            {/* --- ÁREA REFATORADA --- */}
+
+                            {/* 1. Ícone de Destaque (Novo Bloco) */}
+                            <div className="mb-4 flex h-14 w-14 items-center justify-center rounded-2xl bg-primary/10">
+                                <feature.icon className="size-8 text-primary" /> {/* Ícone maior */}
                             </div>
+
+                            {/* 2. Título (Separado do ícone) */}
+                            <h3 className="text-xl font-semibold mb-2">
+                                {feature.title}
+                            </h3>
+                            
+                            {/* 3. Descrição (Intocada) */}
                             <p className="text-sm text-muted-foreground">
                                 {feature.description}
                             </p>
 
-                            <div className="mt-6 w-full bg-card/50 overflow-hidden">
-                                <Image
-                                    src={feature.image}
-                                    alt={feature.title}
-                                    width={500}
-                                    height={500}
-                                    className="w-full h-full object-cover"
-                                />
-                            </div>
+                            {/* 4. Bloco da Imagem (REMOVIDO) */}
+                            {/* <div className="mt-6 w-full bg-card/50 overflow-hidden">
+                                <Image src={feature.image} ... />
+                            </div> 
+                            */}
+                            {/* --- FIM DA ÁREA REFATORADA --- */}
+
                         </MagicCard>
                     </Container>
                 ))}

@@ -8,43 +8,51 @@ const Analysis = () => {
         <div className="relative flex flex-col items-center justify-center w-full py-20">
             <Container>
                 <div className="flex flex-col items-center text-center max-w-3xl mx-auto mb-16">
+                    
+                    {/* === COPY DA MARCA AQUI === */}
                     <h2 className="text-2xl md:text-4xl lg:text-5xl font-heading font-medium !leading-snug">
-                        Intelligent marketing  <br /><span className="font-subheading italic">dashboard</span>
+                        Acompanhe seu <br /><span className="font-subheading italic">Dashboard de Vendas</span>
                     </h2>
                     <p className="text-base md:text-lg text-accent-foreground/80 mt-4">
-                        Gain detailed insights into your marketing performance and campaign metrics with our advanced analytics tools.
+                        Veja em tempo real quais produtos vendem mais, quais consultoras estão performando e quanto você está faturando. Total transparência.
                     </p>
+                    {/* === FIM DA COPY === */}
+
                 </div>
             </Container>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 relative w-full">
 
+                {/* --- CARD 1: FOCO EM VENDAS/FATURAMENTO --- */}
                 <Container delay={0.2}>
                     <div className="rounded-2xl bg-background/40 relative border border-border/50">
+                        {/* === CORES DA REDEFIGITAL AQUI === */}
                         <MagicCard
-                            gradientFrom="#38bdf8"
-                            gradientTo="#3b82f6"
-                            gradientColor="rgba(59,130,246,0.1)"
+                            gradientFrom="#8B2E52" // Rosa (Secondary)
+                            gradientTo="#B76A58" // Terracota (Primary)
+                            gradientColor="rgba(183, 106, 88, 0.1)" // Glow Terracota
                             className="p-4 lg:p-8 w-full overflow-hidden"
                         >
-                            <div className="absolute bottom-0 right-0 bg-blue-500 w-1/4 h-1/4 blur-[8rem] z-20"></div>
+                            {/* === COR DO BLUR AQUI === */}
+                            <div className="absolute bottom-0 right-0 bg-primary w-1/4 h-1/4 blur-[8rem] z-20"></div>
+                            
                             <div className="space-y-4">
                                 <h3 className="text-xl font-semibold">
-                                    Campaign Insights
+                                    Performance de Vendas
                                 </h3>
                                 <p className="text-sm text-muted-foreground">
-                                    Track your campaign performance with data-driven insights.
+                                    Acompanhe seu faturamento, comissões e ticket médio.
                                 </p>
 
                                 <div className="space-y-4">
                                     <div className="flex justify-between items-baseline">
                                         <div>
                                             <div className="text-3xl font-semibold">
-                                                $12,834
+                                                R$ 12.834,00
                                             </div>
                                             <div className="text-sm text-green-500 flex items-center gap-1 mt-2">
                                                 <TrendingUpIcon className="w-4 h-4" />
-                                                +25% from last month
+                                                +25% último mês
                                             </div>
                                         </div>
                                         <div className="flex gap-2">
@@ -59,21 +67,21 @@ const Analysis = () => {
 
                                     <div className="space-y-2">
                                         <div className="grid grid-cols-4 text-sm text-muted-foreground py-2">
-                                            <div>Campaign</div>
+                                            <div>Produto</div>
                                             <div>Status</div>
-                                            <div>Reach</div>
-                                            <div>ROI</div>
+                                            <div>Vendas</div>
+                                            <div>Comissão</div>
                                         </div>
                                         {[
-                                            { name: "Sales", status: "Active", reach: "45K", roi: "+32%" },
-                                            { name: "Emails", status: "Done", reach: "28K", roi: "+18%" },
-                                            { name: "Ads", status: "Active", reach: "62K", roi: "+45%" },
-                                        ].map((campaign) => (
-                                            <div key={campaign.name} className="grid grid-cols-4 text-sm py-2 border-t border-border/50">
-                                                <div>{campaign.name}</div>
-                                                <div>{campaign.status}</div>
-                                                <div>{campaign.reach}</div>
-                                                <div className="font-semibold">{campaign.roi}</div>
+                                            { name: "Creme X", status: "Ativo", sales: "120", com: "R$ 1.200" },
+                                            { name: "Sérum Y", status: "Ativo", sales: "88", com: "R$ 950" },
+                                            { name: "Kit Z", status: "Pausado", sales: "30", com: "R$ 400" },
+                                        ].map((item) => (
+                                            <div key={item.name} className="grid grid-cols-4 text-sm py-2 border-t border-border/50">
+                                                <div>{item.name}</div>
+                                                <div>{item.status}</div>
+                                                <div>{item.sales}</div>
+                                                <div className="font-semibold">{item.com}</div>
                                             </div>
                                         ))}
                                     </div>
@@ -83,30 +91,34 @@ const Analysis = () => {
                     </div>
                 </Container>
 
+                {/* --- CARD 2: FOCO EM REDE/CONSULTORAS --- */}
                 <Container delay={0.2}>
                     <div className="rounded-2xl bg-background/40 relative border border-border/50">
+                        {/* === CORES DA REDEFIGITAL AQUI === */}
                         <MagicCard
-                            gradientFrom="#38bdf8"
-                            gradientTo="#3b82f6"
-                            gradientColor="rgba(59,130,246,0.1)"
+                            gradientFrom="#8B2E52" // Rosa (Secondary)
+                            gradientTo="#B76A58" // Terracota (Primary)
+                            gradientColor="rgba(183, 106, 88, 0.1)" // Glow Terracota
                             className="p-4 lg:p-8 w-full overflow-hidden"
                         >
-                            <div className="absolute bottom-0 right-0 bg-sky-500 w-1/4 h-1/4 blur-[8rem] z-20"></div>
+                            {/* === COR DO BLUR AQUI === */}
+                            <div className="absolute bottom-0 right-0 bg-secondary w-1/4 h-1/4 blur-[8rem] z-20"></div>
+
                             <div className="space-y-4">
                                 <h3 className="text-xl font-semibold">
-                                    Audience Metrics
+                                    Performance da Rede
                                 </h3>
                                 <p className="text-sm text-muted-foreground">
-                                    Understand your audience behavior and engagement patterns.
+                                    Visualize o crescimento da sua rede de consultoras.
                                 </p>
 
                                 <div className="space-y-4">
                                     <div className="flex justify-between items-baseline">
                                         <div>
-                                            <div className="text-3xl font-semibold">84,392</div>
+                                            <div className="text-3xl font-semibold">1.204</div>
                                             <div className="text-sm text-green-500 flex items-center gap-1 mt-2">
                                                 <TrendingUpIcon className="w-4 h-4" />
-                                                +12% engagement rate
+                                                +12% novas consultoras
                                             </div>
                                         </div>
                                         <div className="flex gap-2">
@@ -122,20 +134,20 @@ const Analysis = () => {
                                     {/* Audience Table */}
                                     <div className="space-y-2">
                                         <div className="grid grid-cols-4 text-sm text-muted-foreground py-2">
-                                            <div>Channel</div>
-                                            <div>Users</div>
-                                            <div>Sessions</div>
-                                            <div>Conv. Rate</div>
+                                            <div>Região</div>
+                                            <div>Consultoras</div>
+                                            <div>Vendas</div>
+                                            <div>Conversão</div>
                                         </div>
                                         {[
-                                            { channel: "Social", users: "32K", sessions: "45K", rate: "3.2%" },
-                                            { channel: "Email", users: "28K", sessions: "36K", rate: "4.5%" },
-                                            { channel: "Direct", users: "15K", sessions: "22K", rate: "5.1%" },
+                                            { region: "Sudeste", users: "850", sales: "R$ 8.200", rate: "5.1%" },
+                                            { region: "Nordeste", users: "210", sales: "R$ 2.400", rate: "3.2%" },
+                                            { region: "Sul", users: "144", sales: "R$ 2.234", rate: "4.5%" },
                                         ].map((metric) => (
-                                            <div key={metric.channel} className="grid grid-cols-4 text-sm py-2 border-t border-border/50">
-                                                <div>{metric.channel}</div>
+                                            <div key={metric.region} className="grid grid-cols-4 text-sm py-2 border-t border-border/50">
+                                                <div>{metric.region}</div>
                                                 <div>{metric.users}</div>
-                                                <div>{metric.sessions}</div>
+                                                <div>{metric.sales}</div>
                                                 <div className="font-semibold">{metric.rate}</div>
                                             </div>
                                         ))}
