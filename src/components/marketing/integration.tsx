@@ -39,15 +39,18 @@ const HUB_LOGOS = [
         alt: "Karuí Cosméticos",
         position: "left-1", 
         size: "large", 
-        iconSize: "large" 
+        iconSize: "large",
+        className: undefined
     },
+
     { 
         id: "smartnudge",
         logo: "/logos/smartnudge.png", 
         alt: "Smartnudge",
         position: "right-1", 
         size: "large", 
-        iconSize: "large" 
+        iconSize: "large", 
+        className: undefined,
     },
     // Opcional: Adicione mais 2 (ex: logos genéricas do hub)
     // { id: "default", logo: "/images/icon-hub.svg", alt: "Hub", position: "left-3", size: "small", iconSize: "small", className: "hidden lg:flex" },
