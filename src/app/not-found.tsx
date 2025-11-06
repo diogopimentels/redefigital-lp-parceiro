@@ -31,11 +31,11 @@ const NotFoundPage = () => {
                             <Button variant="outline" className="mt-8">
                                 <ArrowLeftIcon className="size-4" />
                                 Back
-                      _   </Button>
-                        </Link>
-                t   </div>
+                            </Button>
+                      </Link>
+                    </div>
                 </Container>
-            </Wrapper>
+        </Wrapper>
         </main>
     )
 };
