@@ -110,7 +110,7 @@ const NavbarComponent01 = () => { // Removida a prop navigationData, vamos usar 
                         </Button>
                     </Link>
                     
-                    <Link href="http//redefigital-frontend.onrender.com/sign-up" className="hidden lg:block">
+                    <Link href="http://redefigital-frontend.onrender.com/sign-up" className="hidden lg:block">
                         <Button>
                             Consultora
                         </Button>
