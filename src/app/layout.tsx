@@ -1,77 +1,43 @@
-"use client"; 
+import type { Metadata } from "next";
+import { Providers } from "@/components/global/providers"; // Importa o Client Component
+import { cn } from "@/lib"; // Importa o cn
+import { base, heading } from "@/constants"; // Importa as fontes
+import { subheading } from "@/constants/fonts"; // Importa as fontes
+import "@/styles/globals.css"; // Importa os estilos globais
 
-import "@/styles/globals.css";
-import { cn } from "@/lib";
-import { base, heading } from "@/constants";
-import { Toaster } from "@/components/ui/sonner";
-import { subheading } from "@/constants/fonts";
-
-import { useState, useEffect } from "react";
-import { AnimatePresence } from "framer-motion";
-import { SiteLoader } from "@/components/global/siteloader"; 
-
-// --- IMPORTAÇÕES DO TEMA E LOADER ---
-import { createContext, useContext } from 'react';
-import { ThemeProvider } from "@/components/global/theme-provider"; // <-- 1. Importar o Provedor de Tema
-
-// ... (seu código do LoadingContext e useLoading continua o mesmo) ...
-interface LoadingContextType {
-    isLoading: boolean;
-}
-export const LoadingContext = createContext<LoadingContextType | undefined>(undefined);
-export const useLoading = () => {
-    // ... (código do hook) ...
-    const context = useContext(LoadingContext);
-    if (context === undefined) {
-        throw new Error('useLoading must be used within a LoadingProvider');
-    }
-    return context;
+// --- 1. METADATA (TÍTULO E FAVICON) ---
+export const metadata: Metadata = {
+  title: "Redefigital - O Marketplace B2B2C",
+  description: "Conecte sua marca a milhares de consultoras em todo o Brasil.",
+  icons: {
+    icon: '/icon.png', // (Confere se está na pasta /public)
+    shortcut: '/favicon.ico', // (Confere se está na pasta /public)
+    apple: '/apple-icon.png', // (Confere se está na pasta /public)
+  },
 };
 
+// --- 2. LAYOUT (SERVER COMPONENT) ---
 export default function RootLayout({
-    children,
-}: Readonly<{
-    children: React.ReactNode;
-}>) {
-    const [isLoading, setIsLoading] = useState(true);
-
-    useEffect(() => {
-        const timer = setTimeout(() => {
-            setIsLoading(false);
-        }, 2000); 
-        
-        return () => clearTimeout(timer);
-    }, []);
-
-    return (
-        <html lang="en" suppressHydrationWarning>
-            <body
-                className={cn(
-                    "min-h-screen bg-background text-foreground antialiased font-heading overflow-x-hidden !scrollbar-hide",
-                    base.variable,
-                    heading.variable,
-                    subheading.variable,
-                )}
-            >
-                {/* 2. ABRAÇAR TUDO COM O THEME PROVIDER */}
-                <ThemeProvider
-                    attribute="class"
-                    defaultTheme="system"
-                    enableSystem
-                    disableTransitionOnChange
-                >
-                    <Toaster richColors theme="dark" position="top-right" />
-
-                    <AnimatePresence>
-                        {isLoading && <SiteLoader />}
-                    </AnimatePresence>
-
-                    <LoadingContext.Provider value={{ isLoading }}>
-                        {children}
-                    </LoadingContext.Provider>
-                
-                </ThemeProvider>
-            </body>
-        </html>
-    );
-};
+  children,
+}: {
+  children: React.ReactNode;
+}) {
+  return (
+    <html lang="pt-BR" suppressHydrationWarning>
+      {/* O <body> FICA AQUI */}
+      <body
+        className={cn(
+          "min-h-screen bg-background text-foreground antialiased font-heading overflow-x-hidden !scrollbar-hide",
+          base.variable,
+          heading.variable,
+          subheading.variable,
+        )}
+      >
+        {/* "Abraça" o conteúdo com o Provider (que é 'use client') */}
+        <Providers>
+          {children}
+        </Providers>
+      </body>
+    </html>
+  );
+}

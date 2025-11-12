@@ -4,7 +4,7 @@ import { MenuIcon } from 'lucide-react'; // Manteve o MenuIcon para o mobile
 import { useState, useEffect } from "react"; // Hooks do React para scroll
 import { cn } from "@/lib"; // Utilitário de classes
 import { motion, AnimatePresence } from "framer-motion"; // Para a logo animada
-import { useLoading } from "@/app/layout"; // Contexto de loading
+import { useLoading } from "@/components/global/providers";
 import Image from "next/image"; // Para a logo Redefigital
 import Link from "next/link"; // Para os links
 
@@ -104,13 +104,13 @@ const NavbarComponent01 = () => { // Removida a prop navigationData, vamos usar 
                 {/* --- BOTÕES (Direita) --- */}
                 <div className='flex items-center gap-2'> {/* Ajustado gap */}
                     {/* Botão CTA (Desktop) */}
-                    <Link href="http://localhost:8080/partner/sign-up" className="hidden lg:block">
+                    <Link href="http://redefigital-frontend.onrender.com/partner/sign-up" className="hidden lg:block">
                         <Button>
                             Marca parceira
                         </Button>
                     </Link>
                     
-                    <Link href="http://localhost:8080/sign-in" className="hidden lg:block">
+                    <Link href="http//redefigital-frontend.onrender.com/sign-up" className="hidden lg:block">
                         <Button>
                             Consultora
                         </Button>
