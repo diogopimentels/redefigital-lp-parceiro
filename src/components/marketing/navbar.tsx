@@ -135,9 +135,12 @@ const NavbarComponent01 = () => { // Removida a prop navigationData, vamos usar 
                                             <Link href={item.href}>{item.name}</Link>
                                         </DropdownMenuItem>
                                     ))}
-                                    {/* Adiciona o botão CTA no menu mobile */}
-                                    <DropdownMenuItem className="lg:hidden" asChild>
-                                        <Link href="#">Começar agora</Link>
+                                    {/* Adiciona os botões CTA no menu mobile */}
+                                    <DropdownMenuItem asChild>
+                                        <Link href="http://redefigital-frontend.onrender.com/partner/sign-up">Marca parceira</Link>
+                                    </DropdownMenuItem>
+                                    <DropdownMenuItem asChild>
+                                        <Link href="http://redefigital-frontend.onrender.com/sign-up">Consultora</Link>
                                     </DropdownMenuItem>
                                 </DropdownMenuGroup>
                             </DropdownMenuContent>
