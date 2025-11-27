@@ -90,8 +90,8 @@ const HeroConsultora = () => {
 
                             <div className="rounded-lg lg:rounded-[22px] border border-border bg-background">
                                 <Image
-                                    src="/images/dashboard.png"
-                                    alt="dashboard"
+                                    src="/images/dashboard2.png"
+                                    alt="dashboard2"
                                     width={1920}
                                     height={1080}
                                     className="rounded-lg lg:rounded-[20px]"

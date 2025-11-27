@@ -11,10 +11,12 @@ const Analysis = () => {
                     
                     {/* === COPY DA MARCA AQUI === */}
                     <h2 className="text-2xl md:text-4xl lg:text-5xl font-heading font-medium !leading-snug">
-                        Acompanhe seu <br /><span className="font-subheading italic">Dashboard de Vendas</span>
+                        Torne-se um especialista no seu 
+                    <br /><span className="font-subheading italic">próprio mercado</span>
                     </h2>
                     <p className="text-base md:text-lg text-accent-foreground/80 mt-4">
-                        Veja em tempo real quais produtos vendem mais, quais consultoras estão performando e quanto você está faturando. Total transparência.
+                        Pare de tomar decisões no escuro baseadas em "achismos". Tenha acesso aos mesmos dados que grandes marcas usam para dominar o mercado. Veja em tempo real o que funciona (e o que não funciona) no seu negócio e tome decisões estratégicas como um CEO.
+
                     </p>
                     {/* === FIM DA COPY === */}
 

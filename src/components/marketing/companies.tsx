@@ -30,7 +30,7 @@ const Companies = () => {
                 {/* Headline (Intocada) */}
                 <div className="flex flex-col items-center justify-center">
                     <h4 className="text-2xl lg:text-4xl font-medium">
-                        Marcas que faturam com a Redefigital
+                        Marcas parceiras da Redefigital
                     </h4>
                 </div>
             </Container>

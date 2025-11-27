@@ -22,7 +22,7 @@ const hubContent = {
     },
     karui: {
         title: "Karuí Cosméticos",
-        description: "Produção terceirizada (White Label) de cosméticos. Fórmula, envase e regulamentação do zero."
+        description: "Produção terceirizada de cosméticos. Fórmula, envase e regulamentação do zero."
     }
 };
 

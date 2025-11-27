@@ -49,7 +49,7 @@ const Hero = () => {
                             <span>
                                 <span className="spark mask-gradient absolute inset-0 h-[100%] w-[100%] animate-flip overflow-hidden rounded-full [mask:linear-gradient(white,_transparent_50%)] before:absolute before:aspect-square before:w-[200%] before:rotate-[-90deg] before:animate-rotate before:bg-[conic-gradient(from_0deg,transparent_0_340deg,white_360deg)] before:content-[''] before:[inset:0_auto_auto_50%] before:[translate:-50%_-15%]" />
                             </span>
-                            <span className="backdrop absolute inset-[1px] rounded-full bg-background transition-colors duration-200 group-hover:bg-neutral-800" />
+                            <span className="backdrop absolute inset-[1px] rounded-full bg-neutral-950 transition-colors duration-200 group-hover:bg-neutral-800" />
                             <span className="z-10 py-0.5 text-sm text-neutral-100 flex items-center">
                                 {/* === CORRIGIDO AQUI === (Gradiente do Badge) */}
                                 <span className="px-2 py-[0.5px] h-[18px] tracking-wide flex items-center justify-center rounded-full bg-gradient-to-r from-secondary to-primary text-[9px] font-medium mr-2 text-white">
@@ -66,7 +66,7 @@ const Hero = () => {
                                 um centavo {" "}
                             </span>
                             com a Redefigital
-                            
+
                         </h1>
                     </Container>
                     <Container delay={0.2}>
@@ -77,7 +77,7 @@ const Hero = () => {
                     </Container>
                     <Container delay={0.25} className="z-20">
                         <div className="flex items-center justify-center mt-6 gap-x-4">
-                            <Link href="#" className="flex items-center gap-2 group">
+                            <Link href="https://app.redefigital.com.br/partner/sign-up" className="flex items-center gap-2 group">
                                 <Button size="lg">
                                     Cadastrar minha marca agora
                                     <ArrowRightIcon className="size-4 group-hover:translate-x-1 transition-all duration-300" />
@@ -87,10 +87,10 @@ const Hero = () => {
                     </Container>
                     <Container delay={0.3} className="relative">
                         <div className="relative rounded-xl lg:rounded-[32px] border border-border p-2 backdrop-blur-lg mt-10 max-w-6xl mx-auto">
-                            
+
                             {/* === CORRIGIDO AQUI === (Glow principal da imagem) */}
                             <div className="absolute top-1/8 left-1/2 -z-10 bg-gradient-to-r from-secondary to-primary w-1/2 lg:w-3/4 -translate-x-1/2 h-1/4 -translate-y-1/2 inset-0 blur-[4rem] lg:blur-[10rem] animate-image-glow"></div>
-                            
+
                             {/* === CORRIGIDO AQUI === (Glow secundário da imagem) */}
                             <div className="hidden lg:block absolute -top-1/8 left-1/2 -z-20 bg-primary w-1/4 -translate-x-1/2 h-1/4 -translate-y-1/2 inset-0 blur-[10rem] animate-image-glow"></div>
 

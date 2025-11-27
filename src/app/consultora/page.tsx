@@ -1,7 +1,7 @@
 import Wrapper from "@/components/global/wrapper";
 import AnalysisConsultora from "@/components/marketing/analysis-consultora";
 import Companies from "@/components/marketing/companies";
-import Features from "@/components/marketing/features";
+import FeaturesConsultora from "@/components/marketing/features-consultora";
 import HeroConsultora from "@/components/marketing/hero-consultora";
 import Integration from "@/components/marketing/integration";
 import CtaConsultora from "@/components/marketing/cta-consultora";
@@ -24,7 +24,7 @@ const ConsultoraPage = () => {
                     <AnalysisConsultora />
                 </div>
                 <div id="funcionalidades">
-                    <Features />
+                    <FeaturesConsultora />
                 </div>
                 <CtaConsultora />
             </Wrapper>
