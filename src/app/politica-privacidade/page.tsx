@@ -22,7 +22,8 @@ const PrivacyPolicyPage = () => {
                             <h2 className="text-3xl font-semibold mb-4">1. Informações Gerais</h2>
                             <p className="mb-4">
                                 A presente Política de Privacidade e Segurança tem por objetivo esclarecer como a plataforma <strong>REDEFIGITAL</strong>,
-                                operada pela <strong>RIVERIS LTDA ME</strong>, inscrita no CNPJ sob o nº <strong>[INSERIR CNPJ]</strong>,
+                                operada pela <strong>RIVERIS LTDA ME</strong>, inscrita no CNPJ sob o nº <strong>13.530.690/0001-32
+                                    </strong>,
                                 com sede em São José do Rio Preto/SP, realiza a coleta, uso, armazenamento, tratamento e proteção dos dados
                                 pessoais dos seus usuários.
                             </p>
@@ -342,7 +343,8 @@ const PrivacyPolicyPage = () => {
 
                             <div className="bg-muted p-6 rounded-lg mb-4">
                                 <p className="mb-2"><strong>RIVERIS LTDA ME (REDEFIGITAL)</strong></p>
-                                <p className="mb-2"><strong>CNPJ:</strong> [INSERIR CNPJ]</p>
+                                <p className="mb-2"><strong>CNPJ:</strong> 13.530.690/0001-32
+                                    </p>
                                 <p className="mb-2"><strong>E-mail oficial:</strong> <a href="mailto:suporte@redefigital.com.br" className="text-primary hover:underline">suporte@redefigital.com.br</a></p>
                                 <p className="mb-2"><strong>Sede:</strong> São José do Rio Preto/SP</p>
                             </div>
