@@ -104,7 +104,7 @@ const NavbarConsultora = () => {
                 "transition-all duration-500 ease-in-out",
                 "bg-background/80 backdrop-blur-sm",
                 scrolled
-                    ? "max-w-5xl h-14 rounded-full border border-border px-6" // Pílula
+                    ? "max-w-5xl h-14 rounded-full border border-border px-6 mt-6" // Pílula
                     : "max-w-7xl h-16 rounded-none border-transparent px-6" // Full
             )}>
                 {/* LOGO ANIMADA */}

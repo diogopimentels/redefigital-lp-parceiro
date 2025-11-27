@@ -34,13 +34,13 @@ const NavbarComponent01 = () => {
 
     return (
         <header className="sticky top-0 w-full z-50">
-            
+
             {/* ========================================================
                 1. VERSÃO MOBILE (Só aparece em telas pequenas 'md:hidden')
                ======================================================== */}
             <div className={cn(
                 "flex md:hidden items-center justify-between px-4 h-16 w-full transition-all duration-300 border-b",
-                scrolled 
+                scrolled
                     ? "bg-background/80 backdrop-blur-md border-border/40" // Vidro quando rola
                     : "bg-transparent border-transparent" // Transparente no topo
             )}>
@@ -77,9 +77,9 @@ const NavbarComponent01 = () => {
                                     </DropdownMenuItem>
                                 ))}
                             </DropdownMenuGroup>
-                            
+
                             <DropdownMenuSeparator className="my-2" />
-                            
+
                             <div className="flex flex-col gap-2 p-1">
                                 <DropdownMenuItem asChild className="p-0 focus:bg-transparent">
                                     <Link href="http://app.redefigital.com.br/partner/sign-up" className="w-full">
@@ -87,7 +87,7 @@ const NavbarComponent01 = () => {
                                             Começar agora
                                         </Button>
                                     </Link>
-                                </DropdownMenuItem>                               
+                                </DropdownMenuItem>
                             </div>
                         </DropdownMenuContent>
                     </DropdownMenu>
@@ -104,7 +104,7 @@ const NavbarComponent01 = () => {
                 "transition-all duration-500 ease-in-out",
                 "bg-background/80 backdrop-blur-sm",
                 scrolled
-                    ? "max-w-5xl h-14 rounded-full border border-border px-6" // Pílula
+                    ? "max-w-5xl h-14 rounded-full border border-border px-6 mt-6" // Pílula
                     : "max-w-7xl h-16 rounded-none border-transparent px-6" // Full
             )}>
                 {/* LOGO ANIMADA */}
