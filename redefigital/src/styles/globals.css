@@ -1,0 +1,172 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /* ======================================================
+   * ✨ NOVO TEMA - MODO CLARO (LIGHT MODE - NOVO :root)
+   * (Agora, :root é o Light Mode de verdade, usando sua paleta)
+   * ======================================================
+  */
+  :root {
+    --background: 0 0% 94.9%;     /* #F2F2F2 (Seu cinza claro) */
+    --foreground: 0 0% 3.9%;      /* Texto padrão escuro */
+    --card: 0 0% 100%;            /* Branco */
+    --card-foreground: 0 0% 3.9%; /* Texto escuro */
+    --popover: 0 0% 100%;         /* Branco */
+    --popover-foreground: 0 0% 3.9%; /* Texto escuro */
+    --primary: 340 50.4% 43.3%;   /* #A6375F (Seu Rosa Escuro/Vinho para botões/destaques) */
+    --primary-foreground: 0 0% 98%; /* Branco (Texto no primário) */
+    --secondary: 173 50% 50.2%;   /* #41BFB3 (Seu Verde Claro para secundário) */
+    --secondary-foreground: 0 0% 3.9%; /* Texto escuro */
+    --muted: 0 0% 90%;            /* Cinza suave para fundo de itens "muted" */
+    --muted-foreground: 0 0% 45.1%; /* Cinza médio para texto muted */
+    --accent: 340 60% 61.2%;      /* #D95F80 (Seu Rosa Vibrante para hover/realce) */
+    --accent-foreground: 0 0% 3.9%; /* Texto escuro */
+    --destructive: 340 60% 61.2%; /* #D95F80 (Seu Rosa Vibrante para alertas) */
+    --destructive-foreground: 0 0% 98%; /* Branco */
+    --border: 0 0% 80%;           /* Cinza claro para bordas */
+    --input: 0 0% 80%;            /* Cinza claro para inputs */
+    --ring: 340 50.4% 43.3%;      /* #A6375F (Cor primária para ring) */
+    --radius: 0.6rem;             /* Mantido o radius */
+    
+    /* Charts Light */
+    --chart-1: 340 50.4% 43.3%;  /* #A6375F */
+    --chart-2: 173 50% 50.2%;      /* #41BFB3 */
+    --chart-3: 340 60% 61.2%;      /* #D95F80 */
+    --chart-4: 173 90.1% 24.1%;     /* #067368 */
+    --chart-5: 0 0% 63.9%;         /* Cinza */
+
+    /* Sidebar Light (seguindo a linha) */
+    --sidebar-background: 0 0% 100%; /* Branco */
+    --sidebar-foreground: 0 0% 9%;   /* Preto suave */
+    --sidebar-primary: 340 50.4% 43.3%; /* #A6375F */
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 0 0% 96.1%; /* Cinza */
+    --sidebar-accent-foreground: 0 0% 9%;
+    --sidebar-border: 0 0% 89.8%; /* Cinza */
+    --sidebar-ring: 340 50.4% 43.3%; /* #A6375F */
+  }
+
+  /* ======================================================
+   * ✨ NOVO TEMA - MODO ESCURO (DARK MODE - NOVO .dark)
+   * (Agora, .dark é o Dark Mode de verdade, o que você AMOU)
+   * ======================================================
+  */
+  .dark {
+    --background: 0 0% 3.9%;     /* Preto (Cor de fundo Dark que você amou) */
+    --foreground: 0 0% 94.9%;    /* #F2F2F2 (Seu cinza claro para texto no Dark) */
+    --card: 0 0% 9.8%;           /* Cinza muito escuro (Card Dark) */
+    --card-foreground: 0 0% 94.9%; /* #F2F2F2 */
+    --popover: 0 0% 9.8%;         /* Cinza muito escuro */
+    --popover-foreground: 0 0% 94.9%; /* #F2F2F2 */
+    --primary: 340 60% 61.2%;      /* #D95F80 (Seu Rosa Vibrante para primário no Dark) */
+    --primary-foreground: 0 0% 100%%; /* Texto escuro */
+    --secondary: 173 90.1% 24.1%;  /* #067368 (Seu Verde Escuro para secundário no Dark) */
+    --secondary-foreground: 0 0% 94.9%; /* #F2F2F2 */
+    --muted: 0 0% 14.9%;         /* Cinza escuro */
+    --muted-foreground: 0 0% 63.9%; /* Cinza médio */
+    --accent: 340 50.4% 43.3%;     /* #A6375F (Seu Rosa Escuro/Vinho para accent no Dark) */
+    --accent-foreground: 0 0% 94.9%; /* #F2F2F2 */
+    --destructive: 340 60% 61.2%;  /* #D95F80 (Rosa Vibrante para destructive no Dark) */
+    --destructive-foreground: 0 0% 3.9%; /* Texto escuro */
+    --border: 0 0% 14.9%;         /* Cinza escuro para borda */
+    --input: 0 0% 14.9%;          /* Cinza escuro para input */
+    --ring: 340 60% 61.2%;         /* #D95F80 (Cor primária para ring no Dark) */
+    --radius: 0.6rem;             /* Mantido o radius */
+    /* Dentro do :root ou .dark */
+    --uma-cor-branca: 0 0% 100%;
+    --uma-cor-quase-preta: 0 0% 3.9%;
+    
+    /* Charts Dark */
+    --chart-1: 340 60% 61.2%;      /* #D95F80 */
+    --chart-2: 173 90.1% 24.1%;  /* #067368 */
+    --chart-3: 340 50.4% 43.3%;     /* #A6375F */
+    --chart-4: 173 50% 50.2%;      /* #41BFB3 */
+    --chart-5: 0 0% 63.9%;         /* Cinza */
+
+    /* Sidebar Dark (seguindo a linha) */
+    --sidebar-background: 0 0% 9.8%;   /* Cinza muito escuro */
+    --sidebar-foreground: 0 0% 94.9%; /* #F2F2F2 */
+    --sidebar-primary: 340 60% 61.2%;  /* #D95F80 */
+    --sidebar-primary-foreground: 0 0% 3.9%;
+    --sidebar-accent: 0 0% 14.9%; /* Cinza */
+    --sidebar-accent-foreground: 0 0% 94.9%;
+    --sidebar-border: 0 0% 14.9%; /* Cinza */
+    --sidebar-ring: 340 60% 61.2%; /* #D95F80 */
+  }
+}
+
+/* ======================================================
+ * ESTILOS CUSTOMIZADOS E ANIMAÇÕES DO TEMPLATE (MANTIDOS)
+ * (Ajustados para usar as novas variáveis de tema)
+ * ======================================================
+*/
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+::-webkit-scrollbar-thumb {
+  background: hsl(var(--foreground)/0.1);
+  border-radius: 10px;
+}
+::-webkit-scrollbar-track {
+  background: hsl(var(--background));
+}
+img {
+  user-select: none;
+  pointer-events: none;
+}
+.link {
+  position: relative;
+  transition: color 0.3s ease-in-out;
+}
+.link::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background-color: hsl(var(--foreground));
+  transition: width 0.3s ease-in-out;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.link:hover::after {
+  width: 100%;
+}
+.companies::before {
+  content: "";
+  position: absolute;
+  top: 0%;
+  left: 0;
+  height: 1px;
+  width: 100%;
+  /* Usando muted-foreground com opacidade para uma linha suave */
+  background: radial-gradient(50% 56400% at 50% 100%, hsl(var(--muted-foreground)/0.5) 0%, transparent 100%);
+}
+.companies::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 20px;
+  width: 70%;
+  border-radius: 100%;
+  filter: blur(6rem);
+  /* Glow usa a cor primária */
+  background: hsl(var(--primary));
+}
+.footer::before {
+  /* Usando muted-foreground com opacidade para uma linha suave */
+  background: radial-gradient(50% 56400% at 50% 100%, hsl(var(--muted-foreground)/0.5) 0%, transparent 100%);
+  top: 0;
+  content: "";
+  height: 1px;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  color: hsl(var(--muted-foreground));
+}
