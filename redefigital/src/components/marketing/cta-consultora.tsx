@@ -13,7 +13,7 @@ const CtaConsultora = () => {
                     </div>
                     <div className="text-center md:text-right">
                         {/* TODO: Adicione o link para o seu aplicativo aqui */}
-                        <Link href="http://app.redefigital.com.br/sign-up">
+                        <Link href="http://app.redefigital.com.br/consultant/sign-up">
                             <Button size="lg">Criar minha conta profissional</Button>
                         </Link>
                     </div>

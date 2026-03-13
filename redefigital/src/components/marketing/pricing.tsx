@@ -40,7 +40,7 @@ const Pricing = () => {
                     </ul>
 
                     <div className="space-y-4">
-                        <Link href="http://redefigital-frontend.onrender.com/sign-up" className="w-full block">
+                        <Link href="http://app.redefigital.com.br/consultant/sign-up" className="w-full block">
                             <Button size="lg" className="w-full">
                                 Começar agora por R$ 29,90/mês
                             </Button>

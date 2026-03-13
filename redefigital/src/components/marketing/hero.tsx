@@ -77,7 +77,7 @@ const Hero = () => {
                     </Container>
                     <Container delay={0.25} className="z-20">
                         <div className="flex items-center justify-center mt-6 gap-x-4">
-                            <Link href="https://app.redefigital.com.br/partner/sign-up" className="flex items-center gap-2 group">
+                            <Link href="http://app.redefigital.com.br/partner/sign-up" className="flex items-center gap-2 group">
                                 <Button size="lg">
                                     Cadastrar minha marca agora
                                     <ArrowRightIcon className="size-4 group-hover:translate-x-1 transition-all duration-300" />

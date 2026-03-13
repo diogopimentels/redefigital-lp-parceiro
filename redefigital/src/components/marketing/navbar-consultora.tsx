@@ -143,7 +143,7 @@ const NavbarConsultora = () => {
 
                 {/* BOTÕES */}
                 <div className="flex items-center gap-2">
-                    <Link href="/sign-up" className="hidden lg:block">
+                    <Link href="consultant/sign-up" className="hidden lg:block">
                         <Button size="sm">Quero ser Consultora</Button>
                     </Link>
                     <ThemeToggle />

@@ -13,7 +13,7 @@ const Cta = () => {
                     </div>
                     <div className="text-center md:text-right">
                         {/* TODO: Adicione o link para o seu aplicativo aqui */}
-                        <Link href="https://app.redefigital.com.br/partner/sign-up">
+                        <Link href="http://app.redefigital.com.br/partner/sign-up">
                             <Button size="lg">Começar agora</Button>
                         </Link>
                     </div>

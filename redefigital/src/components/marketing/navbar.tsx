@@ -82,7 +82,7 @@ const NavbarComponent01 = () => {
 
                             <div className="flex flex-col gap-2 p-1">
                                 <DropdownMenuItem asChild className="p-0 focus:bg-transparent">
-                                    <Link href="http://app.redefigital.com.br/partner/sign-up" className="w-full">
+                                    <Link href="http://app.redefigital.com.br/consultant/sign-up" className="w-full">
                                         <Button size="sm" className="w-full justify-center">
                                             Começar agora
                                         </Button>
@@ -143,7 +143,7 @@ const NavbarComponent01 = () => {
 
                 {/* BOTÕES */}
                 <div className="flex items-center gap-2">
-                    <Link href="http://app.redefigital.com.br/partner/sign-up" className="hidden lg:block">
+                    <Link href="http://app.redefigital.com.br/consultant/sign-up" className="hidden lg:block">
                         <Button size="sm">Começar agora</Button>
                     </Link>
                     <ThemeToggle />
