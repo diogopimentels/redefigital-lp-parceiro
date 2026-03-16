@@ -23,7 +23,7 @@ const Footer = () => {
                             </span>
                         </div>
                         <p className="text-muted-foreground mt-4 text-sm text-start">
-                            Conecte, venda, cresça. Sua marca na rede de consultora mais eficiente do Brasil.
+                            Onde a tradição da venda direta encontra a inovação do B2B2C. Conecte, venda e cresça.
                         </p>
                     </div>
                 </Container>

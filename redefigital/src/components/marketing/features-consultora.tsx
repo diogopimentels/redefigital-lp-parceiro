@@ -10,10 +10,10 @@ const FeaturesConsultora = () => {
                 {/* --- COPY PARA CONSULTORA --- */}
                 <div className="flex flex-col items-center text-center max-w-2xl mx-auto">
                     <h2 className="text-2xl md:text-4xl lg:text-5xl font-heading font-medium !leading-snug mt-4">
-                        Venda produtos incríveis <span className="font-subheading italic">sem investir em estoque</span>
+                        O boca a boca tradicional, <span className="font-subheading italic">agora com tecnologia</span>
                     </h2>
                     <p className="text-base md:text-lg text-center text-accent-foreground/80 mt-6">
-                        Tenha acesso a centenas de produtos de várias marcas. Simples assim.
+                        Sua experiência de vendas unida a um sistema profissional. Venda de tudo, de onde estiver.
                     </p>
                 </div>
                 {/* --- FIM DA COPY --- */}

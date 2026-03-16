@@ -53,20 +53,20 @@ const HeroConsultora = () => {
                             <span className="z-10 py-0.5 text-sm text-neutral-100 flex items-center">
                                 {/* === CORRIGIDO AQUI === (Gradiente do Badge) */}
                                 <span className="px-2 py-[0.5px] h-[18px] tracking-wide flex items-center justify-center rounded-full bg-gradient-to-r from-secondary to-primary text-[9px] font-medium mr-2 text-white">
-                                    SaaS
+                                    NOVO
                                 </span>
-                                Sem investir em estoque
+                                A Evolução do Porta a Porta
                             </span>
                         </button>
                     </Container>
                     <Container delay={0.15}>
                         <h1 className="text-4xl md:text-4xl lg:text-7xl font-bold text-center !leading-tight max-w-4xl mx-auto">
-                            Cansou de ter que comprar estoque para começar a revender?
+                            O fim do estoque parado e da bolsa pesada nas costas
                         </h1>
                     </Container>
                     <Container delay={0.2}>
                         <p className="max-w-xl mx-auto mt-2 text-base lg:text-lg text-center text-muted-foreground">
-                            Acesse centenas de produtos de várias marcas, com preço de atacado, sem precisar investir em estoque. Mostre pro seu cliente, ele escolhe, você compra e revende com sua margem. Simples assim.
+                            A venda direta evoluiu. Tenha acesso a grandes marcas de vários segmentos sem precisar comprar kits caros. Você mostra o catálogo digital, o cliente compra, e a comissão cai na conta.
                         </p>
                     </Container>
                     <Container delay={0.25} className="z-20">

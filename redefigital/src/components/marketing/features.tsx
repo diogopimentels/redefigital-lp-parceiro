@@ -11,10 +11,10 @@ const Features = () => {
                 {/* --- SUA COPY (INTOCADA) --- */}
                 <div className="flex flex-col items-center text-center max-w-2xl mx-auto">
                     <h2 className="text-2xl md:text-4xl lg:text-5xl font-heading font-medium !leading-snug mt-4">
-                        Conecte sua marca às <span className="font-subheading italic"> consultoras certas </span>
+                        Sua marca nas mãos de <span className="font-subheading italic"> quem sabe vender </span>
                     </h2>
                     <p className="text-base md:text-lg text-center text-accent-foreground/80 mt-6">
-                        Cadastre seus produtos gratuitamente, você define a comissão. Sem risco, sem mensalidade, sem dor de cabeça.
+                        Digitalizamos o porta a porta. Você escala suas vendas sem risco, sem mensalidade e sem criar uma equipe do zero.
                     </p>
                 </div>
                 {/* --- FIM DA COPY --- */}

@@ -11,11 +11,11 @@ const Analysis = () => {
                     
                     {/* === COPY DA MARCA AQUI === */}
                     <h2 className="text-2xl md:text-4xl lg:text-5xl font-heading font-medium !leading-snug">
-                        Torne-se um especialista no seu 
-                    <br /><span className="font-subheading italic">próprio mercado</span>
+                        Domine a venda direta com 
+                    <br /><span className="font-subheading italic">inteligência de dados</span>
                     </h2>
                     <p className="text-base md:text-lg text-accent-foreground/80 mt-4">
-                        Pare de tomar decisões no escuro baseadas em "achismos". Tenha acesso aos mesmos dados que grandes marcas usam para dominar o mercado. Veja em tempo real o que funciona (e o que não funciona) no seu negócio e tome decisões estratégicas como um CEO.
+                        Pare de tomar decisões no escuro. Tenha acesso à tecnologia que transforma o porta a porta tradicional em uma máquina de vendas previsível. Veja o que funciona e otimize sua estratégia.
 
                     </p>
                     {/* === FIM DA COPY === */}
@@ -43,7 +43,7 @@ const Analysis = () => {
                                     Performance de Vendas
                                 </h3>
                                 <p className="text-sm text-muted-foreground">
-                                    Acompanhe seu faturamento, comissões e ticket médio.
+                                    Acompanhe faturamento, comissões pagas e ticket médio.
                                 </p>
 
                                 <div className="space-y-4">
@@ -108,10 +108,10 @@ const Analysis = () => {
 
                             <div className="space-y-4">
                                 <h3 className="text-xl font-semibold">
-                                    Performance da Rede
+                                    Performance da Força de Vendas
                                 </h3>
                                 <p className="text-sm text-muted-foreground">
-                                    Visualize o crescimento da sua rede de consultoras.
+                                    Visualize a expansão territorial dos seus vendedores.
                                 </p>
 
                                 <div className="space-y-4">
@@ -120,7 +120,7 @@ const Analysis = () => {
                                             <div className="text-3xl font-semibold">1.204</div>
                                             <div className="text-sm text-green-500 flex items-center gap-1 mt-2">
                                                 <TrendingUpIcon className="w-4 h-4" />
-                                                +12% novas consultoras
+                                                +12% novos vendedores
                                             </div>
                                         </div>
                                         <div className="flex gap-2">
@@ -137,7 +137,7 @@ const Analysis = () => {
                                     <div className="space-y-2">
                                         <div className="grid grid-cols-4 text-sm text-muted-foreground py-2">
                                             <div>Região</div>
-                                            <div>Consultoras</div>
+                                            <div>Vendedores</div>
                                             <div>Vendas</div>
                                             <div>Conversão</div>
                                         </div>

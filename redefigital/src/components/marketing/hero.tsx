@@ -53,26 +53,23 @@ const Hero = () => {
                             <span className="z-10 py-0.5 text-sm text-neutral-100 flex items-center">
                                 {/* === CORRIGIDO AQUI === (Gradiente do Badge) */}
                                 <span className="px-2 py-[0.5px] h-[18px] tracking-wide flex items-center justify-center rounded-full bg-gradient-to-r from-secondary to-primary text-[9px] font-medium mr-2 text-white">
-                                    NOVO
+                                    B2B2C
                                 </span>
-                                Conheça mais sobre a Redefigital
+                                A Única Plataforma B2B2C do Brasil
                             </span>
                         </button>
                     </Container>
                     <Container delay={0.15}>
                         <h1 className="text-4xl md:text-4xl lg:text-7xl font-bold text-center !leading-tight max-w-4xl mx-auto">
-                            Venda mais sem gastar{" "}
+                            A força da venda direta tradicional, agora com{" "}
                             <span className="">
-                                um centavo {" "}
+                                tecnologia escalável
                             </span>
-                            com a Redefigital
-
                         </h1>
                     </Container>
                     <Container delay={0.2}>
                         <p className="max-w-xl mx-auto mt-2 text-base lg:text-lg text-center text-muted-foreground">
-                            A Redefigital conecta sua marca a milhares de consultoras que vendem todos os dias.
-                            Você cadastra seus produtos e a rede faz o resto, sem mensalidade, sem dor de cabeça.
+                            Onde o antigo encontra o novo: conectamos sua marca a milhares de vendedores porta a porta. Você cadastra o produto e nossa rede faz o giro. Sem custo de aquisição, sem dor de cabeça.
                         </p>
                     </Container>
                     <Container delay={0.25} className="z-20">

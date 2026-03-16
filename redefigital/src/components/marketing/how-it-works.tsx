@@ -3,24 +3,24 @@ import { ArrowRightIcon } from "lucide-react";
 
 const steps = [
     {
-        title: "Assine por R$ 29,90/mês",
-        description: "Menos que um lanche por semana. Sem taxa de adesão, sem pegadinha."
+        title: "Assine sua franquia de bolso",
+        description: "Por apenas R$ 29,90/mês. Mais barato que seu pacote de internet. Sem taxa de adesão extra."
     },
     {
-        title: "Acesse o catálogo completo",
-        description: "Navegue por centenas de produtos de várias marcas. Escolha o que faz sentido pro seu público."
+        title: "Acesse os catálogos digitais",
+        description: "Navegue por centenas de produtos das melhores marcas. Escolha o que faz sentido para seus clientes."
     },
     {
-        title: "Mostre pros seus clientes e venda",
-        description: "Use o catálogo digital, mande pelo WhatsApp, mostre pessoalmente. Do jeito que você já vende hoje."
+        title: "Venda no boca a boca ou WhatsApp",
+        description: "Use o link digital para mostrar os produtos de forma profissional. Do jeito que você já sabe fazer."
     },
     {
-        title: "Registre a venda na plataforma",
-        description: "Leva menos de 30 segundos. A comissão já fica registrada automaticamente."
+        title: "Registre tudo em 30 segundos",
+        description: "A venda é confirmada no sistema e o split garante que o dinheiro da sua comissão está seguro."
     },
     {
-        title: "Acompanhe seus ganhos em tempo real",
-        description: "Entre no app e veja quanto você já faturou, quantas vendas fez e qual sua posição no ranking."
+        title: "Veja seu dinheiro crescer",
+        description: "Entre no app, acompanhe seus lucros em tempo real e concorra no ranking dos melhores vendedores."
     }
 ];
 
@@ -30,7 +30,7 @@ const HowItWorks = () => {
             <Container>
                 <div className="flex flex-col items-center text-center max-w-3xl mx-auto mb-16">
                     <h2 className="text-2xl md:text-4xl font-heading font-medium !leading-snug">
-                        Como funciona na prática?
+                        Como funciona a Venda Direta 2.0?
                     </h2>
                 </div>
 

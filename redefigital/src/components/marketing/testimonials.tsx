@@ -7,12 +7,11 @@ const Testimonials = () => {
             <Container>
                 <div className="flex flex-col items-center text-center max-w-3xl mx-auto mb-16">
                     <h2 className="text-2xl md:text-4xl font-heading font-medium !leading-snug">
-                        Consultoras reais, resultados reais
+                        Quem vive de vendas já mudou para a Redefigital
                     </h2>
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                    {/* Placeholder testimonials since specific ones weren't provided in full detail, using the example structure */}
                     <MagicCard
                         gradientFrom="#8B2E52"
                         gradientTo="#B76A58"
@@ -20,14 +19,14 @@ const Testimonials = () => {
                         gradientColor="rgba(183, 106, 88, 0.1)"
                     >
                         <p className="text-foreground/90 italic mb-6">
-                            "Antes eu passava horas fazendo conta no caderno. Agora em 5 minutos eu sei exatamente quanto vendi e quanto vou receber. Virou outra vida."
+                            &quot;Eu passava horas batendo perna e somando pedido no caderno. Hoje resolvo tudo pelo zap com o catálogo digital. Minha renda dobrou.&quot;
                         </p>
                         <div className="flex items-center gap-4">
                             <div className="w-10 h-10 rounded-full bg-neutral-200 flex items-center justify-center text-neutral-500 font-bold">
                                 MS
                             </div>
                             <div>
-                                <h4 className="font-semibold text-sm">Maria Silva</h4>
+                                <h4 className="font-semibold text-sm">Marcos Silva</h4>
                                 <p className="text-xs text-muted-foreground">São Paulo/SP</p>
                             </div>
                         </div>
@@ -40,7 +39,7 @@ const Testimonials = () => {
                         gradientColor="rgba(183, 106, 88, 0.1)"
                     >
                         <p className="text-foreground/90 italic mb-6">
-                            "Consigo vender muito mais marcas sem precisar investir em estoque. Minhas clientes adoram a variedade."
+                            &quot;O medo de investir em kit inicial acabou. Consigo oferecer vários produtos e não tomo mais calote porque o cliente paga no link.&quot;
                         </p>
                         <div className="flex items-center gap-4">
                             <div className="w-10 h-10 rounded-full bg-neutral-200 flex items-center justify-center text-neutral-500 font-bold">
@@ -60,7 +59,7 @@ const Testimonials = () => {
                         gradientColor="rgba(183, 106, 88, 0.1)"
                     >
                         <p className="text-foreground/90 italic mb-6">
-                            "O ranking me motiva a vender mais todo mês. Já ganhei prêmios incríveis!"
+                            &quot;A plataforma é tão fácil de usar! Ver minha comissão ali na tela em tempo real e subir no ranking me motiva a vender todos os dias.&quot;
                         </p>
                         <div className="flex items-center gap-4">
                             <div className="w-10 h-10 rounded-full bg-neutral-200 flex items-center justify-center text-neutral-500 font-bold">

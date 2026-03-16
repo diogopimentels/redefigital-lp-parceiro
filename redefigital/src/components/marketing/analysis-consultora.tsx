@@ -11,10 +11,10 @@ const AnalysisConsultora = () => {
 
                     {/* === COPY DA MARCA AQUI === */}
                     <h2 className="text-2xl md:text-4xl lg:text-5xl font-heading font-medium !leading-snug">
-                        Chega de gerenciar vendas <br /><span className="font-subheading italic">no caderninho</span>
+                        Aposente o caderninho <br /><span className="font-subheading italic">de anotações</span>
                     </h2>
                     <p className="text-base md:text-lg text-accent-foreground/80 mt-4">
-                        Tenha visibilidade total do seu negócio. Acompanhe suas vendas, veja sua posição no ranking e desbloqueie conquistas que aumentam seus ganhos.
+                        Seu celular é seu novo escritório. Acompanhe comissões, histórico de clientes, suba no ranking e desbloqueie prêmios pela sua performance.
                     </p>
                     {/* === FIM DA COPY === */}
 
@@ -38,10 +38,10 @@ const AnalysisConsultora = () => {
 
                             <div className="space-y-4">
                                 <h3 className="text-xl font-semibold">
-                                    Performance de Vendas
+                                    Painel de Ganhos
                                 </h3>
                                 <p className="text-sm text-muted-foreground">
-                                    Acompanhe seu faturamento, comissões e ticket médio.
+                                    Acompanhe seu faturamento, comissões livres e ticket médio.
                                 </p>
 
                                 <div className="space-y-4">
@@ -106,10 +106,10 @@ const AnalysisConsultora = () => {
 
                             <div className="space-y-4">
                                 <h3 className="text-xl font-semibold">
-                                    Performance da Rede
+                                    Ranking e Conquistas
                                 </h3>
                                 <p className="text-sm text-muted-foreground">
-                                    Visualize o crescimento da sua rede de consultoras.
+                                    Veja sua posição na sua região e bata novas metas.
                                 </p>
 
                                 <div className="space-y-4">

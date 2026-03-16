@@ -84,7 +84,7 @@ const NavbarConsultora = () => {
                                 <DropdownMenuItem asChild className="p-0 focus:bg-transparent">
                                     <Link href="/sign-up" className="w-full">
                                         <Button size="sm" className="w-full justify-center">
-                                            Quero ser Consultora
+                                            Quero vender mais
                                         </Button>
                                     </Link>
                                 </DropdownMenuItem>
@@ -144,7 +144,7 @@ const NavbarConsultora = () => {
                 {/* BOTÕES */}
                 <div className="flex items-center gap-2">
                     <Link href="consultant/sign-up" className="hidden lg:block">
-                        <Button size="sm">Quero ser Consultora</Button>
+                        <Button size="sm">Quero vender mais</Button>
                     </Link>
                     <ThemeToggle />
                 </div>

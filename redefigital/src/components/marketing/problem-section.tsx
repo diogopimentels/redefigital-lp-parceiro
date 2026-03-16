@@ -13,20 +13,20 @@ const ProblemSection = () => {
             <Container>
                 <div className="relative flex flex-col items-center text-center max-w-3xl mx-auto mb-16">
                     <h2 className="text-3xl md:text-4xl lg:text-5xl font-heading font-medium !leading-tight text-foreground">
-                        Você reconhece alguma dessas situações?
+                        A rotina do porta a porta não precisa ser tão difícil
                     </h2>
                     <p className="mt-4 text-lg text-muted-foreground max-w-2xl">
-                        Se você enfrenta esses desafios no dia a dia, saiba que não está sozinha.
+                        Se você reconhece os desafios abaixo, chegou a hora de modernizar o seu jeito de vender.
                     </p>
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8 max-w-6xl mx-auto relative z-10">
                     {[
-                        "Tem que pedir catálogo impresso de cada marca e gastar com frete",
-                        "Perde tempo anotando pedido no caderno e depois passando pro WhatsApp",
-                        "Esquece de cobrar cliente porque não tem controle organizado",
-                        "Não sabe quanto já vendeu no mês ou quanto vai receber de comissão",
-                        "Quer revender mais marcas mas não tem capital pra estocar"
+                        "Carregar peso com revistas de papel e produtos na bolsa.",
+                        "Perder horas anotando pedidos no caderno e calculando frete.",
+                        "Vender fiado, tomar calote e ficar com vergonha de cobrar.",
+                        "Não saber exatamente qual foi o seu lucro real no fim do mês.",
+                        "Querer revender novidades, mas não ter dinheiro pro kit inicial."
                     ].map((item, index) => (
                         <div
                             key={index}
@@ -45,7 +45,7 @@ const ProblemSection = () => {
                 <div className="mt-16 text-center max-w-3xl mx-auto relative z-10">
                     <div className="inline-flex flex-col items-center gap-2 p-6 rounded-2xl bg-primary/5 border border-primary/10">
                         <p className="text-lg md:text-xl font-medium text-foreground">
-                            Se você respondeu <span className="text-primary font-bold">"sim"</span> pra pelo menos uma dessas, a Redefigital foi feita pra você.
+                            Se você respondeu <span className="text-primary font-bold">"sim"</span> pra pelo menos uma dessas, a Redefigital é a sua nova ferramenta de trabalho.
                         </p>
                     </div>
                 </div>

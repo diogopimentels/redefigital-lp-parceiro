@@ -9,7 +9,7 @@ const Pricing = () => {
             <Container>
                 <div className="flex flex-col items-center text-center max-w-3xl mx-auto mb-12">
                     <h2 className="text-2xl md:text-4xl font-heading font-medium !leading-snug">
-                        Invista menos de R$ 1 por dia na sua carreira
+                        Sua ferramenta profissional de vendas por R$ 29,90/mês
                     </h2>
                 </div>
 
@@ -23,12 +23,12 @@ const Pricing = () => {
 
                     <ul className="space-y-4 mb-8">
                         {[
-                            "Acesso a todo o catálogo de marcas parceiras",
-                            "Registro ilimitado de vendas",
-                            "Painel completo de performance",
-                            "Gestão de clientes",
-                            "Ranking e recompensas",
-                            "Suporte via WhatsApp"
+                            "Acesso vitalício a grandes marcas parceiras",
+                            "Registro ilimitado de pedidos e vendas",
+                            "Dashboard financeiro e de comissões",
+                            "Gestor digital da carteira de clientes",
+                            "Acesso ao programa de Ranking e Recompensas",
+                            "Suporte prioritário no WhatsApp"
                         ].map((item, index) => (
                             <li key={index} className="flex items-center gap-3">
                                 <div className="w-6 h-6 rounded-full bg-primary/10 flex items-center justify-center shrink-0">
@@ -42,11 +42,11 @@ const Pricing = () => {
                     <div className="space-y-4">
                         <Link href="http://app.redefigital.com.br/consultant/sign-up" className="w-full block">
                             <Button size="lg" className="w-full">
-                                Começar agora por R$ 29,90/mês
+                                Quero ser um vendedor de sucesso
                             </Button>
                         </Link>
                         <p className="text-xs text-center text-muted-foreground">
-                            Sem taxa de adesão. Sem fidelidade. Cancele quando quiser.
+                            O fim da burocracia. Sem fidelidade. Cancele com um clique.
                         </p>
                     </div>
                 </div>

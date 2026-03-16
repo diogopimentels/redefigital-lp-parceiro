@@ -8,32 +8,32 @@ import {
 
 export const FEATURES_CONSULTORA = [
     {
-        title: "Centenas de produtos de várias marcas",
-        description: "Acesse um catálogo completo de marcas renomadas. Mostre pros seus clientes, deixe eles escolherem e gere o link de pagamento na hora. Simples assim.",
+        title: "Múltiplos segmentos, um só app",
+        description: "Acesse um catálogo digital com moda, cosméticos, utilidades e mais. Deixe o cliente escolher pelo celular e gere o link na hora.",
         icon: SparklesIcon,
         image: "/images/placeholder-catalogo-produtos.png",
     },
     {
-        title: "Sem investir em estoque",
-        description: "Você não compra nada antecipado. Mostre os produtos, o cliente escolhe, você gera o link de pagamento e pronto. Sem dinheiro parado, sem risco, sem produto encalhado.",
+        title: "Zero Risco, Zero Estoque",
+        description: "Chega de dinheiro parado. Você não compra nada antecipado. Vendeu, o sistema divide o dinheiro e a marca entrega. Simples assim.",
         icon: ShoppingBagIcon,
         image: "/images/placeholder-compra-pos-venda.png",
     },
     {
-        title: "Receba suas comissões automaticamente",
-        description: "Seu cliente paga direto na plataforma e você recebe sua comissão automaticamente na sua conta. Simples, rápido e seguro. Sem precisar vender fiado e cobrar ninguém.",
+        title: "Adeus, fiado! Pagamento digital",
+        description: "Seu cliente paga com cartão ou Pix direto na plataforma. Você recebe sua comissão automaticamente. Venda 100% segura e livre de cobranças.",
         icon: CreditCardIcon,
         image: "/images/placeholder-pagamentos.png",
     },
     {
-        title: "Aumente sua renda sem complicação",
-        description: "Venda quanto quiser. Sem limitações, sem burocracia, sem meta mínima. Quanto mais você vende, mais você ganha.",
+        title: "Escale seus ganhos sem teto",
+        description: "Diferente dos catálogos antigos, aqui não tem meta mínima ou trava. Seu faturamento depende apenas da sua vontade de crescer.",
         icon: TrendingUpIcon,
         image: "/images/placeholder-crescimento.png",
     },
     {
-        title: "Suporte dedicado para consultoras",
-        description: "Nossa equipe está pronta para te ajudar a vender mais. Tire dúvidas, receba dicas e conte com nosso suporte sempre que precisar.",
+        title: "Suporte de quem entende de venda",
+        description: "Nosso time de especialistas está pronto para te ajudar. Dicas de abordagem, tira-dúvidas e treinamentos focados em resultado.",
         icon: HeadphonesIcon,
         image: "/images/placeholder-suporte.png",
     }

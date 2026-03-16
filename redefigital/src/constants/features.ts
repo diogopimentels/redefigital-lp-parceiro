@@ -16,33 +16,33 @@ import {
 
 export const FEATURES = [
     {
-        title: "Consultoras prontas para vender seus produtos",
-        description: "Conecte sua marca em nossa rede de consultoras prontas para vender seu produto.",
+        title: "Uma legião pronta para vender",
+        description: "Esqueça o custo de aquisição (CAC) alto. Conecte sua marca diretamente a uma rede de vendedores focados em conversão.",
         icon: UsersRoundIcon,
         image: "/images/placeholder-rede-consultoras.png", 
     },
     {
-        title: "Custo zero!",
-        description: "O cadastro é 100% gratuito. Você não paga mensalidade, apenas uma comissão transparente *após* a venda ser concluída.",
+        title: "Custo zero para escalar!",
+        description: "O cadastro é 100% gratuito. Você não paga mensalidade, apenas uma comissão transparente após a venda ser concluída.",
         icon: DollarSignIcon,
-        image: "/images/placeholder-dashboard-comissao.png", // <- Trocar pela imagem do seu dashboard
+        image: "/images/placeholder-dashboard-comissao.png",
     },
     {
-        title: "Gestão de estoque e catálogo simplificado",
-        description: "Cadastre seus produtos e defina seu estoque em um único lugar. Todas as consultoras vendem seu catálogo atualizado.",
+        title: "Catálogo digital e estoque unificado",
+        description: "Cadastre produtos e gerencie estoques em um só lugar. Nossa força de vendas acessa seu catálogo sempre atualizado em tempo real.",
         icon: LayoutGridIcon,
-        image: "/images/placeholder-dashboard-produtos.png", // <- Trocar pela imagem do seu dashboard
+        image: "/images/placeholder-dashboard-produtos.png",
     },
     {
-        title: "Pagamentos",
-        description: "O cliente paga na plataforma. Nós cuidamos do split automático da comissão (para você e para a consultora)",
+        title: "Split de pagamentos nativo",
+        description: "O cliente paga, a tecnologia divide. Nós cuidamos do split automático da comissão entre a sua marca e o vendedor direto.",
         icon: TruckIcon,
-        image: "/images/placeholder-dashboard-pedidos.png", // <- Trocar pela imagem do seu dashboard
+        image: "/images/placeholder-dashboard-pedidos.png",
     },
     {
-        title: "Dashboard e BI (Business Intelligence)",
-        description: "Acompanhe suas vendas, comissões pagas e o desempenho das consultoras em tempo real. Dados precisos para decisões inteligentes.",
+        title: "Inteligência de Venda Direta (BI)",
+        description: "Acompanhe mapa de calor, produtos campeões e performance da rede em tempo real. Dados precisos para decisões de CEO.",
         icon: LineChartIcon,
-        image: "/images/placeholder-dashboard-analytics.png", // <- Trocar pela imagem do seu dashboard
+        image: "/images/placeholder-dashboard-analytics.png",
     }
 ]
