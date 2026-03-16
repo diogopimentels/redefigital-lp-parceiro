@@ -60,12 +60,12 @@ const HeroConsultora = () => {
                         </button>
                     </Container>
                     <Container delay={0.15}>
-                        <h1 className="text-4xl md:text-4xl lg:text-7xl font-bold text-center !leading-tight max-w-4xl mx-auto">
-                            O fim do estoque parado e da bolsa pesada nas costas
+                        <h1 className="text-4xl md:text-3xl lg:text-6xl font-bold text-center !leading-tight max-w-4xl mx-auto">
+                            O fim do estoque parado e da bolsa pesada nas costas. A nova era chegou!
                         </h1>
                     </Container>
                     <Container delay={0.2}>
-                        <p className="max-w-xl mx-auto mt-2 text-base lg:text-lg text-center text-muted-foreground">
+                        <p className="max-w-xl mx-auto mt-3 text-base lg:text-lg text-center text-muted-foreground">
                             A venda direta como você conhecia deixou de existir. Nós criamos uma categoria inédita no mercado: o modelo FIGITAL. Pegamos a força do seu contato físico (porta a porta) e injetamos tecnologia digital de ponta. Esqueça a compra de estoque e a bolsa pesada. Venda grandes marcas pela tela do celular e receba suas comissões no automático. Bem-vindo à maior inovação que o mercado já viu, a revolução das vendas diretas começou.
                         </p>
                     </Container>

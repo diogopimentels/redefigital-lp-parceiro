@@ -69,7 +69,7 @@ const Hero = () => {
                     </Container>
                     <Container delay={0.2}>
                         <p className="max-w-xl mx-auto mt-2 text-base lg:text-lg text-center text-muted-foreground">
-                            Onde o antigo encontra o novo: conectamos sua marca a milhares de vendedores porta a porta. Você cadastra o produto e nossa rede faz o giro. Sem custo de aquisição, sem dor de cabeça.
+                            A venda direta tradicional acabou! A nova era chegou. É exatamente onde o antigo encontra o novo, e o físico encontra o digital, que nasce a Redefigital. Inauguramos o conceito FIGITAL, a união imbatível do relacionamento porta a porta com a tecnologia escalável. Somos a única plataforma B2B2C PIONEIRA nesse oceano azul. Você insere seu produto em um canal de vendas totalmente inovador e sem concorrentes, e nossa rede faz o giro. Escala máxima, sem dor de cabeça.
                         </p>
                     </Container>
                     <Container delay={0.25} className="z-20">
