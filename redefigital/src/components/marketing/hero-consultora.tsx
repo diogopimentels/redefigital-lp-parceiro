@@ -66,7 +66,7 @@ const HeroConsultora = () => {
                     </Container>
                     <Container delay={0.2}>
                         <p className="max-w-xl mx-auto mt-2 text-base lg:text-lg text-center text-muted-foreground">
-                            A venda direta evoluiu. Tenha acesso a grandes marcas de vários segmentos sem precisar comprar kits caros. Você mostra o catálogo digital, o cliente compra, e a comissão cai na conta.
+                            A venda direta como você conhecia deixou de existir. Nós criamos uma categoria inédita no mercado: o modelo FIGITAL. Pegamos a força do seu contato físico (porta a porta) e injetamos tecnologia digital de ponta. Esqueça a compra de estoque e a bolsa pesada. Venda grandes marcas pela tela do celular e receba suas comissões no automático. Bem-vindo à maior inovação que o mercado já viu, a revolução das vendas diretas começou.
                         </p>
                     </Container>
                     <Container delay={0.25} className="z-20">
