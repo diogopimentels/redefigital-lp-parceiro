@@ -9,7 +9,7 @@ const Cta = () => {
                 <div className="grid md:grid-cols-2 gap-8 items-center">
                     <div>
                         <h2 className="text-3xl md:text-4xl font-bold text-foreground">Pronto para revolucionar seu faturamento?</h2>
-                        <p className="text-muted-foreground mt-4">Junte-se à inovação do mercado B2B2C e coloque sua marca no maior canal de vendas diretas do Brasil.</p>
+                        <p className="text-muted-foreground mt-4">Junte-se à inovação do mercado B2B2C e coloque sua marca no maior canal de vendas diretas do Brasil. Entre para a era FIGITAL (Físico + Digital): o relacionamento físico escalando seus resultados no digital.</p>
                     </div>
                     <div className="text-center md:text-right">
                         {/* TODO: Adicione o link para o seu aplicativo aqui */}
