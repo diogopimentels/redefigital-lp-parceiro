@@ -1,6 +1,5 @@
 import Wrapper from "@/components/global/wrapper";
 import AnalysisConsultora from "@/components/marketing/analysis-consultora";
-import Companies from "@/components/marketing/companies";
 import FeaturesConsultora from "@/components/marketing/features-consultora";
 import HeroConsultora from "@/components/marketing/hero-consultora";
 import Integration from "@/components/marketing/integration";
@@ -14,9 +13,6 @@ const ConsultoraPage = () => {
             <Navbar />
             <Wrapper className="py-20 relative">
                 <HeroConsultora />
-                <div id="marcas">
-                    <Companies />
-                </div>
                 <div id="hub">
                     <Integration />
                 </div>

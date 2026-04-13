@@ -41,11 +41,6 @@ const Footer = () => {
                                     </Link>
                                 </li>
                                 <li className="mt-2">
-                                    <Link href="#marcas" className="link hover:text-foreground transition-all duration-300">
-                                        Marcas
-                                    </Link>
-                                </li>
-                                <li className="mt-2">
                                     <Link href="#analise" className="link hover:text-foreground transition-all duration-300">
                                         Análise
                                     </Link>

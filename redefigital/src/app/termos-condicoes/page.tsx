@@ -14,7 +14,7 @@ const TermsPage = () => {
                         <h1 className="text-4xl font-bold mb-8 text-center">Termos e Condições Gerais de Uso</h1>
 
                         <p className="text-lg text-muted-foreground mb-8 text-center">
-                            Os serviços do REDEFIGITAL são fornecidos pela pessoa jurídica Razão Social/nome: <strong>RIVERIS LTDA ME</strong>, inscrito no CNPJ/CPF sob o nº <strong>13.530.690/0001-32</strong>, titular da propriedade intelectual sobre software, website, aplicativos, conteúdos e demais ativos relacionados à plataforma REDEFIGITAL.
+                            Os serviços do REDEFIGITAL são fornecidos pela pessoa jurídica Razão Social/nome: <strong>REDEFIGITAL LTDA</strong>, inscrito no CNPJ/CPF sob o nº <strong>65.970.688/0001-88</strong>, titular da propriedade intelectual sobre software, website, aplicativos, conteúdos e demais ativos relacionados à plataforma REDEFIGITAL.
                         </p>
 
                         {/* Seção 1 */}
@@ -229,7 +229,7 @@ const TermsPage = () => {
                                 O presente Termo de Uso concede aos usuários uma licença não exclusiva, não transferível e não sublicenciável, para acessar e fazer uso da plataforma e dos serviços e produtos por ela disponibilizados.
                             </p>
                             <p className="mb-4">
-                                A estrutura do site ou aplicativo, as marcas, logotipos, nomes comerciais, layouts, gráficos e design de interface, imagens, ilustrações, fotografias, apresentações, vídeos, conteúdos escritos e de som e áudio, programas de computador, banco de dados, arquivos de transmissão e quaisquer outras informações e direitos de propriedade intelectual da razão social <strong>RIVERIS DISTRIBUIDORA LTDA</strong>, observados os termos da Lei da Propriedade Industrial (Lei nº 9.279/96), Lei de Direitos Autorais (Lei nº 9.610/98) e Lei do Software (Lei nº 9.609/98), estão devidamente reservados.
+                                A estrutura do site ou aplicativo, as marcas, logotipos, nomes comerciais, layouts, gráficos e design de interface, imagens, ilustrações, fotografias, apresentações, vídeos, conteúdos escritos e de som e áudio, programas de computador, banco de dados, arquivos de transmissão e quaisquer outras informações e direitos de propriedade intelectual da razão social <strong>REDEFIGITAL LTDA</strong>, observados os termos da Lei da Propriedade Industrial (Lei nº 9.279/96), Lei de Direitos Autorais (Lei nº 9.610/98) e Lei do Software (Lei nº 9.609/98), estão devidamente reservados.
                             </p>
                             <p className="mb-4">
                                 Este Termos de Uso não cede ou transfere ao usuário qualquer direito, de modo que o acesso não gera qualquer direito de propriedade intelectual ao usuário, exceto pela licença limitada ora concedida.
@@ -238,7 +238,7 @@ const TermsPage = () => {
                                 O uso da plataforma pelo usuário é pessoal, individual e intransferível, sendo vedado qualquer uso não autorizado, comercial ou não-comercial.
                             </p>
                             <p className="mb-4">
-                                Tais usos consistirão em violação dos direitos de propriedade intelectual da razão social <strong>RIVERIS DISTRIBUIDORA LTDA</strong>, puníveis nos termos da legislação aplicável.
+                                Tais usos consistirão em violação dos direitos de propriedade intelectual da razão social <strong>REDEFIGITAL LTDA</strong>, puníveis nos termos da legislação aplicável.
                             </p>
                         </section>
 
@@ -246,7 +246,7 @@ const TermsPage = () => {
                         <section className="mb-12">
                             <h2 className="text-3xl font-semibold mb-4">12. Das sanções</h2>
                             <p className="mb-4">
-                                Sem prejuízo das demais medidas legais cabíveis, a razão social <strong>RIVERIS DISTRIBUIDORA LTDA</strong> poderá, a qualquer momento, advertir, suspender ou cancelar a conta do usuário:
+                                Sem prejuízo das demais medidas legais cabíveis, a razão social <strong>REDEFIGITAL LTDA</strong> poderá, a qualquer momento, advertir, suspender ou cancelar a conta do usuário:
                             </p>
                             <ul className="list-disc pl-6 mb-4 space-y-2">
                                 <li>a) que violar qualquer dispositivo do presente Termo;</li>
@@ -259,7 +259,7 @@ const TermsPage = () => {
                         <section className="mb-12">
                             <h2 className="text-3xl font-semibold mb-4">13. Da rescisão</h2>
                             <p className="mb-4">
-                                A não observância das obrigações pactuadas neste Termo de Uso ou da legislação aplicável poderá, sem prévio aviso, ensejar a imediata rescisão unilateral por parte da razão social <strong>RIVERIS DISTRIBUIDORA LTDA</strong> e o bloqueio de todos os serviços prestados ao usuário.
+                                A não observância das obrigações pactuadas neste Termo de Uso ou da legislação aplicável poderá, sem prévio aviso, ensejar a imediata rescisão unilateral por parte da razão social <strong>REDEFIGITAL LTDA</strong> e o bloqueio de todos os serviços prestados ao usuário.
                             </p>
                         </section>
 
@@ -267,7 +267,7 @@ const TermsPage = () => {
                         <section className="mb-12">
                             <h2 className="text-3xl font-semibold mb-4">14. Das alterações</h2>
                             <p className="mb-4">
-                                Os itens descritos no presente instrumento poderão sofrer alterações, unilateralmente e a qualquer tempo, por parte da empresa <strong>RIVERIS DISTRIBUIDORA LTDA</strong>, para adequar ou modificar os serviços, bem como para atender novas exigências legais.
+                                Os itens descritos no presente instrumento poderão sofrer alterações, unilateralmente e a qualquer tempo, por parte da empresa <strong>REDEFIGITAL LTDA</strong>, para adequar ou modificar os serviços, bem como para atender novas exigências legais.
                             </p>
                             <p className="mb-4">
                                 As alterações serão veiculadas pela plataforma REDEFIGITAL e o usuário poderá optar por aceitar o novo conteúdo ou por cancelar o uso dos serviços, caso seja assinante de algum serviço.
@@ -302,7 +302,7 @@ const TermsPage = () => {
                                 Última atualização: 27 de novembro de 2025
                             </p>
                             <p className="text-center text-sm text-muted-foreground mt-2">
-                                © 2025 RIVERIS LTDA ME - REDEFIGITAL. Todos os direitos reservados.
+                                © 2025 REDEFIGITAL LTDA - REDEFIGITAL. Todos os direitos reservados.
                             </p>
                         </div>
 

@@ -4,10 +4,6 @@ export const NAV_LINKS = [
         href: "/#hub"
     },
     {
-        name: "Marcas",
-        href: "/#marcas"
-    },
-    {
         name: "Análise",
         href: "/#analise"
     },
